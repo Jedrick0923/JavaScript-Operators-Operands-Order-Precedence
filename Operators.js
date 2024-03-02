@@ -1,0 +1,9 @@
+let Math = 85;
+let Science = 92;
+let English = 95;
+let Filipino = 97;
+let AP = 90;
+let Computer = 98;
+let PE = 99;
+let Ave = (Math+Science+English+Filipino+AP+Computer+PE)/7;
+document.getElementById("demo").innerHTML = "You Passed! (With Honors)" + "<br>"+Ave;
